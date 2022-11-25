@@ -1,0 +1,113 @@
+Symbol	GoldenPathhg38(Mb)	Location	Description
+SRY	2786.855	Yp11.2	sex determining region Y
+RPS4Y1	2841.582	Yp11.2	ribosomal protein S4 Y-linked 1
+ZFY	2935.477	Yp11.2	zinc finger protein Y-linked
+ZFY-AS1	2966.819	Yp11.2	ZFY antisense RNA 1
+LINC00278	3002.996	Yp11.2	long intergenic non-protein coding RNA 278
+TGIF2LY	3579.067	Yp11.2	TGFB induced factor homeobox 2 like Y-linked
+PCDH11Y	5056.09	Yp11.2	protocadherin 11 Y-linked
+TTTY23B	6242.446	Yp11.2	"testis-specific transcript, Y-linked 23B"
+TTTY23	6242.446	Yp11.2	"testis-specific transcript, Y-linked 23"
+TSPY2	6246.223	Yp11.2	testis specific protein Y-linked 2
+FAM197Y9	6258.333	Yp11.2	family with sequence similarity 197 Y-linked member 9
+LINC00280	6357.219	Yp11.2	long intergenic non-protein coding RNA 280
+TTTY1B	6390.401	Yp11.2	"testis-specific transcript, Y-linked 1B"
+TTTY1	6390.401	Yp11.2	"testis-specific transcript, Y-linked 1"
+TTTY2B	6406.244	Yp11.2	"testis-specific transcript, Y-linked 2B"
+TTTY2	6406.244	Yp11.2	"testis-specific transcript, Y-linked 2"
+TTTY21B	6443.434	Yp11.2	"testis-specific transcript, Y-linked 21B"
+TTTY21	6443.434	Yp11.2	"testis-specific transcript, Y-linked 21"
+TTTY7B	6449.468	Yp11.2	"testis-specific transcript, Y-linked 7B"
+TTTY7	6449.468	Yp11.2	"testis-specific transcript, Y-linked 7"
+TTTY8B	6471.031	Yp11.2	"testis-specific transcript, Y-linked 8B"
+TTTY8	6471.031	Yp11.2	"testis-specific transcript, Y-linked 8"
+AMELY	6865.918	Yp11.2	amelogenin Y-linked
+TBL1Y	6910.686	Yp11.2	transducin beta like 1 Y-linked
+TTTY16	7699.357	Yp11.2	"testis-specific transcript, Y-linked 16"
+TTTY12	7804.924	Yp11.2	"testis-specific transcript, Y-linked 12"
+LINC00279	8638.294	Yp11.2	long intergenic non-protein coding RNA 279
+TTTY18	8683.37	Yp11.2	"testis-specific transcript, Y-linked 18"
+TTTY19	8704.472	Yp11.2	"testis-specific transcript, Y-linked 19"
+TTTY11	8783.32	Yp11.2	"testis-specific transcript, Y-linked 11"
+RBMY1A3P	9317.061	Yp11.2	"RNA binding motif protein Y-linked family 1 member A3, pseudogene"
+TTTY20	9329.88	Yp11.2	"testis-specific transcript, Y-linked 20"
+TSPY10	9337.464	Yp11.2	testis specific protein Y-linked 10
+TSPY3	9337.464	Yp11.2	testis specific protein Y-linked 3
+TSPY4	9337.51	Yp11.2	testis specific protein Y-linked 4
+TSPY8	9337.51	Yp11.2	testis specific protein Y-linked 8
+FAM197Y2	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 2
+FAM197Y2	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 2
+FAM197Y4	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 4
+FAM197Y5	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 5
+FAM197Y5	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 5
+FAM197Y7	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 7
+FAM197Y8	9349.58	Yp11.2	family with sequence similarity 197 Y-linked member 8
+FAM197Y6	9390.191	Yp11.2	family with sequence similarity 197 Y-linked member 6
+TSPY1	9466.955	Yp11.2	testis specific protein Y-linked 1
+FAM197Y3	9499.341	Yp11.2	family with sequence similarity 197 Y-linked member 3
+RBMY3AP	9610.721	Yp11.2	"RNA binding motif protein Y-linked family 3 member A, pseudogene"
+TTTY22	9801.153	Yp11.2	"testis-specific transcript, Y-linked 22"
+GYG2P1	12406.116	Yq11.221	glycogenin 2 pseudogene 1
+TTTY15	12662.367	Yq11.221	"testis-specific transcript, Y-linked 15"
+USP9Y	12701.231	Yq11.221	ubiquitin specific peptidase 9 Y-linked
+DDX3Y	12904.868	Yq11.221	DEAD-box helicase 3 Y-linked
+UTY	13323.034	Yq11.221	"ubiquitously transcribed tetratricopeptide repeat containing, Y-linked"
+TMSB4Y	13703.899	Yq11.221	thymosin beta 4 Y-linked
+VCY1B	13985.772	Yq11.221	variable charge Y-linked 1B
+VCY	13985.772	Yq11.221	variable charge Y-linked
+NLGN4Y	14523.746	Yq11.221	neuroligin 4 Y-linked
+NLGN4Y-AS1	14793.642	Yq11.221	NLGN4Y antisense RNA 1
+FAM41AY1	17500.958	Yq11.222	"family with sequence similarity 41 member A, Y-linked 1"
+FAM41AY2	17500.958	Yq11.222	"family with sequence similarity 41 member A, Y-linked 2"
+FAM224B	17575.161	Yq11.222	family with sequence similarity 224 member B
+FAM224A	17575.185	Yq11.222	family with sequence similarity 224 member A
+XKRY2	17768.98	Yq11.222	"XK related, Y-linked 2"
+XKRY	17768.98	Yq11.222	"XK related, Y-linked"
+CDY2B	17878.26	Yq11.222	chromodomain Y-linked 2B
+CDY2A	17878.261	Yq11.222	chromodomain Y-linked 2A
+HSFY2	18546.671	Yq11.222	heat shock transcription factor Y-linked 2
+HSFY1	18546.691	Yq11.222	heat shock transcription factor Y-linked 1
+TTTY9A	18581.206	Yq11.222	"testis-specific transcript, Y-linked 9A"
+TTTY9B	18581.206	Yq11.222	"testis-specific transcript, Y-linked 9B"
+TTTY14	18932.451	Yq11.222	"testis-specific transcript, Y-linked 14"
+KDM5D	19703.865	Yq11.223	lysine demethylase 5D
+TTTY10	20465.668	Yq11.223	"testis-specific transcript, Y-linked 10"
+EIF1AY	20575.711	Yq11.223	eukaryotic translation initiation factor 1A Y-linked
+RPS4Y2	20756.068	Yq11.223	ribosomal protein S4 Y-linked 2
+PRORY	21382.974	Yq11.223	proline rich Y-linked
+RBMY2EP	21395.148	Yq11.223	"RNA binding motif protein Y-linked family 2 member E, pseudogene"
+RBMY1A1	21511.338	Yq11.223	RNA binding motif protein Y-linked family 1 member A1
+RBMY1B	21511.338	Yq11.223	RNA binding motif protein Y-linked family 1 member B
+RBMY1D	21511.338	Yq11.223	RNA binding motif protein Y-linked family 1 member D
+RBMY1E	21511.378	Yq11.223	RNA binding motif protein Y-linked family 1 member E
+TTTY13	21583.6	Yq11.223	"testis-specific transcript, Y-linked 13"
+PRY2	22071.756	Yq11.223	PTPN13 like Y-linked 2
+PRY	22071.756	Yq11.223	PTPN13 like Y-linked
+LOC101929148	22101.692	Yq11.223	uncharacterized LOC101929148
+TTTY6	22144.965	Yq11.223	"testis-specific transcript, Y-linked 6"
+TTTY6B	22144.987	Yq11.223	"testis-specific transcript, Y-linked 6B"
+RBMY1F	22168.542	Yq11.223	RNA binding motif protein Y-linked family 1 member F
+RBMY1J	22168.774	Yq11.223	RNA binding motif protein Y-linked family 1 member J
+TTTY5	22296.798	Yq11.223	"testis-specific transcript, Y-linked 5"
+RBMY2FP	22308.859	Yq11.223	"RNA binding motif protein Y-linked family 2 member F, pseudogene"
+LOC100652931	22316.678	Yq11.223	RNA binding motif protein Y-linked family 1 member A1 pseudogene
+TTTY17A	22851.584	Yq11.223	"testis-specific transcript, Y-linked 17A"
+TTTY17B	22851.584	Yq11.23	"testis-specific transcript, Y-linked 17B"
+TTTY17C	22851.584	Yq11.23	"testis-specific transcript, Y-linked 17C"
+TTTY4B	22936.455	Yq11.23	"testis-specific transcript, Y-linked 4B"
+TTTY4C	22936.455	Yq11.23	"testis-specific transcript, Y-linked 4C"
+TTTY4	22936.455	Yq11.223	"testis-specific transcript, Y-linked 4"
+BPY2B	22984.263	Yq11.23	basic charge Y-linked 2B
+BPY2C	22984.263	Yq11.23	basic charge Y-linked 2C
+BPY2	22984.263	Yq11.223	basic charge Y-linked 2
+DAZ1	23129.355	Yq11.223	deleted in azoospermia 1
+DAZ4	23129.355	Yq11.23	deleted in azoospermia 4
+DAZ3	23219.434	Yq11.23	deleted in azoospermia 3
+DAZ2	23219.457	Yq11.223	deleted in azoospermia 2
+TTTY3B	23936.727	Yq11.23	"testis-specific transcript, Y-linked 3B"
+TTTY3	23936.727	Yq11.23	"testis-specific transcript, Y-linked 3"
+CDY1B	24045.23	Yq11.23	chromodomain Y-linked 1B
+CDY1	24045.793	Yq11.23	chromodomain Y-linked 1
+CSPG4P1Y	24183.434	Yq11.23	CSPG4 pseudogene 1 Y-linked
+GOLGA2P2Y	24209.967	Yq11.23	GOLGA2 pseudogene 2 Y-linked
+GOLGA2P3Y	24209.967	Yq11.23	GOLGA2 pseudogene 3 Y-linked
