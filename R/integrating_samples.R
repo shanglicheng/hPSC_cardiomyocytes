@@ -6,7 +6,7 @@ mixed.cell.counts.cas.02 = readRDS("~/cas02_allcounts.Rds")#b3
 
 mixed.cell.counts.cts.01 = readRDS("~/cts01_allcounts.Rds")#b1
 mixed.cell.counts.cts.02 = readRDS("~/cts02_allcounts.Rds")#b2
-mixed.cell.counts.cts.03 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cts03_allcounts.Rds")#b2
+mixed.cell.counts.cts.03 = readRDS("~cts03_allcounts.Rds")#b2
 
 mixed.cell.counts.coc.01 = readRDS("~/coc01_allcounts.Rds")#b1
 mixed.cell.counts.coc.02 = readRDS("~/coc02_allcounts.Rds")#b1
