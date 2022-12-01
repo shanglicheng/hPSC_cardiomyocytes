@@ -1,16 +1,16 @@
-mixed.cell.counts.cmm.01 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cmm01_allcounts.Rds")#b1
-mixed.cell.counts.cmm.02 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cmm02_allcounts.Rds")#b2
+mixed.cell.counts.cmm.01 = readRDS("~/cmm01_allcounts.Rds")#b1
+mixed.cell.counts.cmm.02 = readRDS("~/cmm02_allcounts.Rds")#b2
 
-mixed.cell.counts.cas.01 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cas01_allcounts.Rds")#b1
-mixed.cell.counts.cas.02 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cas02_allcounts.Rds")#b3
+mixed.cell.counts.cas.01 = readRDS("~/cas01_allcounts.Rds")#b1
+mixed.cell.counts.cas.02 = readRDS("~/cas02_allcounts.Rds")#b3
 
-mixed.cell.counts.cts.01 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cts01_allcounts.Rds")#b1
-mixed.cell.counts.cts.02 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cts02_allcounts.Rds")#b2
+mixed.cell.counts.cts.01 = readRDS("~/cts01_allcounts.Rds")#b1
+mixed.cell.counts.cts.02 = readRDS("~/cts02_allcounts.Rds")#b2
 mixed.cell.counts.cts.03 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/cts03_allcounts.Rds")#b2
 
-mixed.cell.counts.coc.01 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/coc01_allcounts.Rds")#b1
-mixed.cell.counts.coc.02 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/coc02_allcounts.Rds")#b1
-mixed.cell.counts.coc.03 = readRDS("~/OneDrive - KI.SE/R1/0900_allcounts/coc03_allcounts.Rds")#b3
+mixed.cell.counts.coc.01 = readRDS("~/coc01_allcounts.Rds")#b1
+mixed.cell.counts.coc.02 = readRDS("~/coc02_allcounts.Rds")#b1
+mixed.cell.counts.coc.03 = readRDS("~/coc03_allcounts.Rds")#b3
 
 list.batch.all.umi.obj.matrix = list(mixed.cell.counts.cmm.01,
                                      mixed.cell.counts.cmm.02,
@@ -34,11 +34,9 @@ for (i in 2:length(list.batch.all.umi.obj.matrix)) {
 }
 
 dim(count.matrix)
-table(is.na(count.matrix))
 count.matrix[is.na(count.matrix)] <- 0
 
 mixed.cell.counts = count.matrix
-
 
 subject = colnames(mixed.cell.counts)
 subject = gsub(pattern = '.*_', replacement = '', x = subject)
@@ -66,11 +64,8 @@ cell.cluster$batch = gsub(pattern = 'coc.01', replacement = 'b1', x = cell.clust
 cell.cluster$batch = gsub(pattern = 'coc.02', replacement = 'b1', x = cell.cluster$batch)
 cell.cluster$batch = gsub(pattern = 'coc.03', replacement = 'b3', x = cell.cluster$batch)
 
-
 ###
-###
-source('script/p0.R')
-geneY = read.table(file = '~/OneDrive - KI.SE/R1/ygene.txt', header = T, row.names = NULL, sep = "\t", as.is = T)
+geneY = read.table(file = '~/ygene.txt', header = T, row.names = NULL, sep = "\t", as.is = T)
 geneY = geneY[!duplicated(geneY$Symbol),]
 
 geneY = geneY[geneY$Symbol %in% rownames(mixed.cell.counts),]
@@ -154,8 +149,8 @@ g
 ggsave(filename = paste0(outIndex, "NumberOfFemaleMixedCells_subject.pdf"), plot = g, width = 10, height = 3.5, useDingbats=FALSE)
 
 
-female.cells.fib = read.table(file = '~/OneDrive - KI.SE/R1/Figures/20201155_F/df.y.txt', header = T, row.names = 1, sep = '\t')
-female.cells.car = read.table(file = '~/OneDrive - KI.SE/R1/0901_03_F/df.plot.txt', header = T, row.names = 1, sep = '\t')
+female.cells.fib = read.table(file = '~/df.y.txt', header = T, row.names = 1, sep = '\t')
+female.cells.car = read.table(file = '~/df.plot.txt', header = T, row.names = 1, sep = '\t')
 
 table(rownames(female.cells.fib) %in% rownames(female.cells.car))
 
@@ -172,7 +167,7 @@ df.y$type = factor(x = df.y$type,
                    levels = c('Cardiomyocytes',    'Fibroblasts.Female', 'Fibroblasts.Male',          'Other'),
                    labels = c('Cardiomyocytes',    'Fibroblasts.Female', 'Fibroblasts.Male',          'Other'))
 
-write.table(x = df.y, file = '~/OneDrive - KI.SE/R1/Figures/20201154_F/df.y.txt', sep = '\t')
+write.table(x = df.y, file = '~/df.y.txt', sep = '\t')
 
 library(ggplot2)
 library(RColorBrewer)
@@ -204,14 +199,8 @@ df.y = df.y[colnames(mixed.cell.counts),]
 
 mixed.cell.counts = mixed.cell.counts[,rownames(df.y[df.y$female == 'F',])]
 cell.cluster = cell.cluster[colnames(mixed.cell.counts),]
-plot(c(1:nrow(cell.cluster)), match(rownames(df.y[df.y$female == 'F',]), colnames(mixed.cell.counts)))
-
-#save.image(paste0(outIndex, 'tmp_mixed_female.Rd'))
 
 ###
-###
-###
-plot(c(1:nrow(cell.cluster)), match(rownames(df.y[df.y$female == 'F',]), rownames(cell.cluster)))
 df.y.female = df.y[rownames(cell.cluster),]
 table(df.y.female$female)
 
@@ -252,22 +241,17 @@ list.data = list(data.cmm.f.hes2.01 = data.cmm.f.hes2.01,
 
 ###
 myCreateSeuratObjectFromReadMatrix = function(ReadMatrix, projectName) {
-  #ctrl.data = data.wk3.cas.m.ips2
-  #projectName = "data.wk3.cas.m.ips2"
   ctrl.data = ReadMatrix
   colnames(ctrl.data) = paste0(colnames(ctrl.data))
   ctrl <- CreateSeuratObject(counts = ctrl.data, project = projectName, min.cells = 0, min.features = 0)
   
   ctrl[["percent.mt"]] <- PercentageFeatureSet(ctrl, pattern = "^MT-")
   
-  #ctrl <- FilterCells(ctrl, subset.names = "nGene", low.thresholds = 500, high.thresholds = Inf)
   ctrl <- NormalizeData(ctrl)
   ctrl <- ScaleData(ctrl, display.progress = F)
   return(ctrl)
 }
 list.data.obj = mapply(function(x, y) myCreateSeuratObjectFromReadMatrix(x, y), list.data, names(list.data))
-
-#save.image(file = paste0(outIndex, 'data.Rd'))
 
 immune.anchors <- FindIntegrationAnchors(object.list = list.data.obj, dims = 1:20)
 immune.combined <- IntegrateData(anchorset = immune.anchors, dims = 1:20)
