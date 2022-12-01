@@ -148,7 +148,9 @@ g = g +  theme(panel.grid.major = element_blank(),
 g
 ggsave(filename = paste0(outIndex, "NumberOfFemaleMixedCells_subject.pdf"), plot = g, width = 10, height = 3.5, useDingbats=FALSE)
 
-
+###
+#df.y.txt = cellSex.txt
+#df.plot.tt == results_CytoTRACE.txt
 female.cells.fib = read.table(file = '~/df.y.txt', header = T, row.names = 1, sep = '\t')
 female.cells.car = read.table(file = '~/df.plot.txt', header = T, row.names = 1, sep = '\t')
 
