@@ -1,8 +1,6 @@
-
 load('tmp_rrvgo.Rd')
 
 GOTermVector = unique(go.term.input$term_id[go.term.input$source == 'GO:BP'])
-
 library(rrvgo)
 library(org.Hs.eg.db)
 simMatrix <- calculateSimMatrix(GOTermVector,
@@ -75,7 +73,6 @@ network.input = data.frame(term = c(cmm.cas.rrgo$parentTerm,
                                     rep('hvCOC', length(coc.cas.rrgo$parentTerm)),
                                     rep('hvCTS', length(cts.coc.rrgo$parentTerm)),
                                     rep('hvCOC', length(coc.cts.rrgo$parentTerm))))
-
 dup.column = paste0(network.input$term, "_", network.input$box)
 dup.column.se = duplicated(dup.column)
 network.input = network.input[!dup.column.se,]
