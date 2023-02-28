@@ -1,0 +1,19 @@
+data.cmm.f.hes2.01 = Read10X(data.dir = "~/R1/data/0514/EB/filtered_feature_bc_matrix/")
+data.cts.f.hes2.01 = Read10X(data.dir = "~/R1/data/0514/CTS/filtered_feature_bc_matrix/")
+data.cas.f.hes2.01 = Read10X(data.dir = "~/R1/data/0514/CAS/filtered_feature_bc_matrix/")
+data.coc.f.hes2.01 = Read10X(data.dir = "~/R1/data/0514_COC/filtered_feature_bc_matrix/")
+data.coc.f.hes2.02 = Read10X(data.dir = "~/R1/data/0514_COC_W/filtered_feature_bc_matrix/")
+
+data.cts.f.hes2.02 = Read10X(data.dir = "~/R1/data/20200814/LiR_10X3RNA_CPOS-200713-WK-3474a_AnalysisResult/Coll1/filtered_feature_bc_matrix/")
+data.cts.f.hes2.03 = Read10X(data.dir = "~/R1/data/20200814/LiR_10X3RNA_CPOS-200713-WK-3474a_AnalysisResult/Coll2/filtered_feature_bc_matrix/")
+data.cmm.f.hes2.02 = Read10X(data.dir = "~/R1/data/20200814/LiR_10X3RNA_CPOS-200713-WK-3474a_AnalysisResult/EB/filtered_feature_bc_matrix/")
+
+data.cas.f.hes2.02 = Read10X(data.dir = "~/R1/data/WK7-hES2-CAS/filtered_gene_bc_matrices/GRCh38/")
+data.coc.f.hes2.03 = Read10X(data.dir = "~/R1/data/WK7-hES2-COC/filtered_gene_bc_matrices/GRCh38/")
+
+
+      Batch1(2020-05)       Batch2(2020-08)     Batch3(2019-8)
+cs    1                     1
+cas   1                                         1
+cts   1                     2                   
+coc   2                                         1
